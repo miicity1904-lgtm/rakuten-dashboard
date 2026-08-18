@@ -9,6 +9,14 @@ To run the dashboard locally, install the required Python packages:
 pip install -r requirements.txt
 This project uses Streamlit, Plotly, Requests, and standard Python libraries.
 
+Running the Dashboard
+After installing dependencies, run:
+streamlit run src/app.py
+
+This will launch the dashboard in your browser at:
+http://localhost:8501
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 The system was developed as part of my MSc Computer Science dissertation at Queen Mary University of London under the supervision of Dr. Sofia Bakogianni.
 project-root/
@@ -47,12 +55,6 @@ requirements.txt — Lists all Python dependencies needed to run the dashboard.
 
 
 
-Running the Dashboard
-After installing dependencies, run:
-streamlit run src/app.py
-
-This will launch the dashboard in your browser at:
-http://localhost:8501
 
 Executable / Deployment
 A fully packaged executable is not provided because the Rakuten API requires a private key that cannot be bundled into a public binary.
